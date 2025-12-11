@@ -4,33 +4,33 @@ This repository contains an interactive {Power BI} dashboard that analyzes Netfl
 
 ---
 
-## ## Overview
+## Overview
 
 The Netflix Dashboard visualizes how content is spread across countries, how ratings vary, which genres dominate, and how Netflix’s catalog has grown over the years. This project is ideal for data analysts, students, and streaming industry enthusiasts.
 
 ---
 
-## ## Visualizations
+##  Visualizations
 
-### ### {1. Total Movies & TV Shows by Country (Map)}
+###  {1. Total Movies & TV Shows by Country (Map)}
 A choropleth world map showing how many titles each country contributes.  
 Darker colors represent higher values.
 
-### ### {2. Ratings Distribution}
+###  {2. Ratings Distribution}
 A bar chart displaying the number of titles under rating categories like {TV-MA}, {TV-14}, {PG}, {PG-13}, {R}, etc.
 
-### ### {3. Movies vs TV Shows Distribution}
+### {3. Movies vs TV Shows Distribution}
 A bubble chart comparing:
 - {Movies}: 4,265 (68.42%)  
 - {TV Shows}: 1,969 (31.58%)  
 
-### ### {4. Top 10 Genres}
+###  {4. Top 10 Genres}
 A horizontal bar chart presenting the most frequent genres, including {Documentaries}, {Stand-Up Comedy}, {Dramas}, {International Movies}, and more.
 
-### ### {5. Total Titles by Year}
+###  {5. Total Titles by Year}
 An area chart showing how Netflix content expanded from 2008 to 2020, with rapid growth after {2015}.
 
-### ### {6. Title Details Panel}
+### {6. Title Details Panel}
 Includes filters and details such as:
 - {Type}  
 - {Duration}  
@@ -42,7 +42,7 @@ Includes filters and details such as:
 
 ---
 
-## ## Key Insights
+##  Key Insights
 
 - Netflix offers significantly **more Movies than TV Shows**.  
 - {TV-MA} is the most common rating.  
@@ -52,7 +52,7 @@ Includes filters and details such as:
 
 ---
 
-## ## Technologies Used
+## Technologies Used
 
 - {Power BI Desktop}  
 - {Power Query}  
@@ -60,7 +60,7 @@ Includes filters and details such as:
 
 ---
 
-## ## Features
+##  Features
 
 - Fully interactive and filterable dashboard  
 - Global content visualization  
@@ -69,7 +69,7 @@ Includes filters and details such as:
 
 ---
 
-## ## Future Enhancements
+##  Future Enhancements
 
 - Add dataset link and instructions  
 - Add Power BI (.pbix) file  
