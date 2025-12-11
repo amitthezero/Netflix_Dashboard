@@ -1,85 +1,84 @@
-Netflix_Dashboard
+# Netflix_Dashboard
 
-A fully interactive Power BI dashboard that analyzes Netflix’s entire catalog of Movies and TV Shows. This dashboard provides deep insights into content distribution, ratings, genres, release trends, and global availability.
+This repository contains an interactive {Power BI} dashboard that analyzes Netflix’s complete library of Movies and TV Shows. The dashboard provides insights into content distribution, ratings, genres, release trends, and global availability.
 
-📌 Dashboard Overview
+---
 
-The Netflix Dashboard includes the following key visualizations:
+## ## Overview
 
-1. Total Movies & TV Shows by Country (Map)
+The Netflix Dashboard visualizes how content is spread across countries, how ratings vary, which genres dominate, and how Netflix’s catalog has grown over the years. This project is ideal for data analysts, students, and streaming industry enthusiasts.
 
-A choropleth world map highlighting how many titles each country contributes.
-Darker shades indicate a higher number of Movies/TV Shows.
+---
 
-2. Ratings Distribution
+## ## Visualizations
 
-A bar chart showing the number of titles under ratings such as TV-MA, TV-14, PG, R, etc.
-Useful for understanding audience maturity trends.
+### ### {1. Total Movies & TV Shows by Country (Map)}
+A choropleth world map showing how many titles each country contributes.  
+Darker colors represent higher values.
 
-3. Movies vs TV Shows Distribution
+### ### {2. Ratings Distribution}
+A bar chart displaying the number of titles under rating categories like {TV-MA}, {TV-14}, {PG}, {PG-13}, {R}, etc.
 
-A bubble chart comparing total counts:
+### ### {3. Movies vs TV Shows Distribution}
+A bubble chart comparing:
+- {Movies}: 4,265 (68.42%)  
+- {TV Shows}: 1,969 (31.58%)  
 
-Movies: 4,265 (68.42%)
+### ### {4. Top 10 Genres}
+A horizontal bar chart presenting the most frequent genres, including {Documentaries}, {Stand-Up Comedy}, {Dramas}, {International Movies}, and more.
 
-TV Shows: 1,969 (31.58%)
+### ### {5. Total Titles by Year}
+An area chart showing how Netflix content expanded from 2008 to 2020, with rapid growth after {2015}.
 
-This visual clearly shows Netflix is movie-heavy.
+### ### {6. Title Details Panel}
+Includes filters and details such as:
+- {Type}  
+- {Duration}  
+- {Rating}  
+- {Release Year}  
+- {Date Added}  
+- {Genre}  
+- {Description}  
 
-4. Top 10 Genres
+---
 
-A horizontal bar chart showing the most popular genres:
-Documentaries, Stand-Up Comedy, Dramas, International Movies, Kids’ TV, etc.
+## ## Key Insights
 
-5. Total Titles by Year
+- Netflix offers significantly **more Movies than TV Shows**.  
+- {TV-MA} is the most common rating.  
+- The {USA} contributes the largest number of titles.  
+- {Documentaries} and {Stand-Up Comedy} are among the top genres.  
+- Content additions increased sharply after {2015}.  
 
-An area chart illustrating how Netflix content has evolved year-by-year (2008–2020).
-Massive increase in content after 2015.
+---
 
-6. Title Details Panel
+## ## Technologies Used
 
-Filters and metadata including:
+- {Power BI Desktop}  
+- {Power Query}  
+- Dataset Source: {Kaggle — Netflix Movies & TV Shows}  
 
-Type (Movie/TV Show)
+---
 
-Duration
+## ## Features
 
-Rating
+- Fully interactive and filterable dashboard  
+- Global content visualization  
+- Genre, rating, and year-wise analysis  
+- Clean UI with professional storytelling elements  
 
-Release Year
+---
 
-Date Added
+## ## Future Enhancements
 
-Genre & Description
+- Add dataset link and instructions  
+- Add Power BI (.pbix) file  
+- Add dashboard screenshots  
+- Add badges (dataset, version, license)
 
-🎯 Key Insights
+---
 
-Netflix contains more Movies than TV Shows.
+## ## Author
 
-TV-MA is the most common rating on the platform.
-
-The USA dominates in total content produced.
-
-Genres like Documentaries and Stand-Up Comedy appear most frequently.
-
-Content growth significantly accelerated after 2015.
-
-🛠️ Technologies Used
-
-Power BI Desktop
-
-Power Query (Data cleaning & transformations)
-
-Kaggle Dataset: Netflix Movies & TV Shows
-
-📁 Features
-
-Fully interactive report
-
-Dynamic filtering
-
-Global content visualization
-
-Genre and rating analysis
-
-Clean UI with data storytelling
+Created by {Amit Kumar}  
+For learning, analysis, and portfolio presentation.
